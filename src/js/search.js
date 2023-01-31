@@ -16,9 +16,16 @@ categories.addEventListener("change", (e) => {
 	const infoSubt = document.querySelectorAll(".infoSubt");
 	infoSubt.forEach((item) => {
 		if (value == "All") {
-			item.parentElement.parentElement.classList.remove("hidden");
+			item.parentElement.parentElement.parentElement.classList.remove(
+				"hidden"
+			);
 		} else if (!item.textContent.includes(value)) {
-			item.parentElement.parentElement.classList.add("hidden");
-		} else item.parentElement.parentElement.classList.remove("hidden");
+			item.parentElement.parentElement.parentElement.classList.add(
+				"hidden"
+			);
+		} else
+			item.parentElement.parentElement.parentElement.classList.remove(
+				"hidden"
+			);
 	});
 });
