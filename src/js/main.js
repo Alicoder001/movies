@@ -1,0 +1,12 @@
+import "../css/bootstrap.css";
+import "../css/main.css";
+import movies from "./movies";
+import { updateUI } from "./update.js";
+import "./update.js";
+import "./search";
+import "./filter";
+import "./bookmarks";
+import "./localStorage";
+import "./moreInfo";
+updateUI(movies);
+// console.log(movies);

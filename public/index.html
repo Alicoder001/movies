@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+	<script defer src="main53cffcb77a6cef659d98.js"></script><link href="main.css" rel="stylesheet"></head>
+	<body class="d-flex">
+		<header>
+			<h1>Best Movies</h1>
+		</header>
+		<main>
+			<div class="mainHeader">
+				<form id="mainForm" class="d-flex mainHeaderForm">
+					<div class="formBlock">
+						<input
+							id="searchInput"
+							type="text"
+							class="form-control"
+							placeholder="Search" />
+						<select id="categories" class="custom-select switch">
+							<option selected>All</option>
+							<option value="Action">Action</option>
+							<option value="Drama">Drama</option>
+							<option value="War">War</option>
+							<option value="Animation">Animation</option>
+							<option value="Romance">Romance</option>
+							<option value="Uncategorized">Uncategorized</option>
+							<option value="Adventure">Adventure</option>
+							<option value="Comedy">Comedy</option>
+							<option value="Family">Family</option>
+							<option value="Biography">Biography</option>
+							<option value="Crime">Crime</option>
+							<option value="Mystery">Mystery</option>
+							<option value="Thriller">Thriller</option>
+							<option value="Documentary">Documentary</option>
+							<option value="Sport">Sport</option>
+							<option value="Fantasy">Fantasy</option>
+							<option value="Horror">Horror</option>
+							<option value="Sci-FI">Sci-FI</option>
+						</select>
+					</div>
+					<div class="formBlock">
+						<select id="alphabet" class="custom-select switch">
+							<option selected>Default</option>
+							<option value="0">Alphabet (A-Z)</option>
+							<option value="1">Alphabet (Z-A)</option>
+							<option value="2">Year</option>
+							<option value="3">Rating</option>
+						</select>
+						<button type="submit" class="btn btn-primary headerBtn">
+							⭐Bookmarks
+						</button>
+					</div>
+				</form>
+				<div class="bookmark hidden">
+					<ul class="bookmarkList">
+						<li class="bookmarkItem">fasdkf</li>
+						<li class="bookmarkItem">fasdkf</li>
+						<li class="bookmarkItem">fasdkf</li>
+						<li class="bookmarkItem">fasdkf</li>
+					</ul>
+					<div class="btnBlock">
+						<button class="removekBtn btn btn-outline-danger">
+							Remove All
+						</button>
+					</div>
+				</div>
+			</div>
+			<ul class="mainList"></ul>
+		</main>
+		<div id="about" class="about hidden">
+			<div class="aboutWrap">
+				<div class="aboutHeader">
+					<h2 class="aboutHeaderTitle">About Movie</h2>
+					<i
+						id="exitBtn"
+						class="exit fa-5x fa-solid fa-xmark"
+						style="color: gray"></i>
+				</div>
+				<div class="aboutMain">
+					<img src="" alt="img" />
+					<h1 class="aboutTitle">Andre fjklsad</h1>
+					<div class="aboutInfo">
+						<div class="infoBlock">
+							<p class="aboutMainSubt">Genre</p>
+							<p class="aboutSubt">Documentery</p>
+						</div>
+						<div class="infoBlock">
+							<p class="aboutMainSubt">Year</p>
+							<p class="aboutSubt">Documentery</p>
+						</div>
+						<div class="infoBlock">
+							<p class="aboutMainSubt">Language</p>
+							<p class="aboutSubt">Documentery</p>
+						</div>
+						<div class="infoBlock">
+							<p class="aboutMainSubt">Runtime</p>
+							<p class="aboutSubt">Documentery</p>
+						</div>
+						<div class="infoBlock">
+							<p class="aboutMainSubt">Summary</p>
+							<p class="aboutSubt">Documentery</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
