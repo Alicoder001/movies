@@ -2,7 +2,7 @@ const list = document.querySelector(".mainList");
 import movies from "./movies";
 import { modal } from "./moreInfo";
 function updateUI(data, n = 5) {
-	const array = data.slice(0, 30);
+	const array = data;
 	if (n == 0) {
 		array.sort((a, b) =>
 			a.title > b.title ? 1 : b.title > a.title ? -1 : 0
